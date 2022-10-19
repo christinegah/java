@@ -1,0 +1,82 @@
+.form-control{
+    padding: 10px;
+    width: 280px;
+    margin-top: 10px;;
+    border: 1px solid;
+    border-radius: 4px;
+
+}
+
+      .formContainer{
+        width: 400px;
+        height: 400px;
+/* background-color: tomato; */
+padding-top: 6%;
+padding-left: 5%;
+      }
+      .formContainer h2{
+
+padding-left: 25%;
+      }
+      .formA{
+        width: 350px;
+        height: 400px;
+background-color: rgb(226, 226, 226);
+margin-left: 30%;
+margin-top: 5%;
+
+border-radius: 2%;
+      }
+
+      .formB{
+        width: 330px;
+        height: 370px;
+background-color: #ffffff;
+margin-left: 2%;
+margin-top: 3%;
+position: absolute;
+border-radius: 2%;
+      }
+      div label {
+          margin-top: 10px;
+          position: absolute;
+      }
+      button.sub{
+          width: 70%;
+          background-color: #709eff;
+          border-radius: 4px;
+color: white;
+font-size: 18px;
+/* margin-top: 5%; */
+padding: 5px;
+border: none;
+      }
+    button{
+      
+background-color: #709eff;
+color: white;
+font-size: 18px;
+      }
+      #email{
+          /* margin-top: 30px; */
+      }
+      div input{
+          border-radius: 2px;
+          margin-top: 10px;
+          border:none;
+               }
+      ::placeholder{
+          font-size: 16px;
+      }
+      .form-controlUser.error input{
+          border-color: red;
+      }
+      .form-controlUser.success input{
+        border-color: rgb(255, 4, 4);
+    }
+    .form-controlUser.error {
+        border-color: red;
+    }
+    p #naame{
+        margin-top: -5%;
+    }
